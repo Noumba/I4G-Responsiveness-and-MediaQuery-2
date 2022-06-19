@@ -161,7 +161,7 @@ body {
     border-radius: 5px;
     box-shadow: 1px 1px 5px 1px hsl(208, 11%, 55%);
     position: absolute;
-    top: 310%;
+    top: 290%;
     left: 25%;
     background-color: white;
 }
@@ -267,6 +267,11 @@ body {
 
     }
 
+    .logo-container {
+        margin: 0;
+        margin-right: 0;
+    }
+
     .logo-section-mockup-right-container {
         width: 90%;
         padding: 0px;
@@ -340,6 +345,7 @@ body {
         top: 343%;
         left: 1%;
         right: 1%;
+
 
     }
 
@@ -416,7 +422,7 @@ body {
     }
 
     .social-icons {
-        width: 90%;
+        width: 70%;
         display: flex;
         align-items: center;
         padding-left: 25%;
@@ -438,5 +444,39 @@ body {
 
     .copyright {
         text-align: center;
+    }
+}
+
+@media (min-width: 390px) and (max-width:390px) {
+    .floating-container {
+        top: 266%;
+
+    }
+}
+
+@media (min-width: 390px) and (max-width:410px) {
+    .floating-container {
+        top: 277%;
+
+    }
+}
+
+@media (min-width: 411px) and (max-width:413px) {
+    .floating-container {
+        top: 260%;
+
+    }
+}
+
+@media (min-width: 413px) and (max-width:416px) {
+    .floating-container {
+        top: 266%;
+
+    }
+}
+
+@media (min-width:1440px) {
+    .floating-container {
+        top: 410%;
     }
 }
